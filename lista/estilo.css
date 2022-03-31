@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+
+}
+.conteudo{
+    margin: 0 auto;
+    width: 100%;;
+    max-width: 450px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #2b2a2a;
+    padding: 55px;
+    border-radius: 12px;
+}
+.btnAcao{
+    color: black;
+    background-color: #dc2626;
+    
+
+}
+.topo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px; 
+}
+
+.topo input {
+    width: 350px;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 1.2rem;
+    background-color: black;
+    
+}
+
+.topo button{
+    width: 70px;
+    border-radius: 12px;
+    background-color:#4ade80 ;
+
+
+    
+    
+}
+#listaTarefas{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}
+
+#listaTarefas li{
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    border-radius: 12px;
+    justify-content: space-between;
+    align-items: center;
+}
