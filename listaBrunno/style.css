@@ -1,0 +1,49 @@
+.container{
+    margin: 0 auto;
+    width: 100%;;
+    max-width: 450px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #7D3C98;
+    padding: 55px;
+    border-radius: 12px;
+}
+
+.removed label{
+    text-decoration: line-through;
+}
+body{
+    color: white;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    background-color:#4A235A ;
+    color: #fff;
+    padding: 100px;
+    
+    
+}
+ul li{
+    list-style-type: none;
+}
+#btnAdd{
+    width: 70px;
+    border-radius: 12px;
+    background-color:#4ade80 ;
+
+    margin: 8px;
+
+}
+input{
+    border-radius: 12px;
+    
+}
+#remove{
+     background-color: red;
+     border-radius: 12px;
+     
+}
+
+h1{
+    text-align: center;
+ }

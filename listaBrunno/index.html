@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="style.css">
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">Lista de Tarefas</h1>
+        <div class="input-group">
+            <input type="text" placeholder="Adicione uma nova tarefa" class="form-control new-task">
+            <span class="input-group-btn">
+                <button class="btn btn-default add-task" id="btnAdd">Adicionar</button>
+            </span>
+        </div>
+        <br>
+        <ul>
+            <li class="checkbox">
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="task" class="task-item">Limpar a casa
+                    </label>
+                </div>
+            </li>
+            <li>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="task" class="task-item">Estudar 
+                    </label>
+                </div>
+            </li>
+            <li>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="task" class="task-item">treinar
+                    </label>
+                </div>
+            </li>
+            <li>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="task" class="task-item">tomar banho
+                    </label>
+                </div>
+            </li>
+        </ul>
+        <footer>
+            <div>
+                <p>Mude o nome da sua lista</p>
+                <input type="text" class="change-list" id="inputTitle" value="Lista de Tarefas">
+            </div>
+            <div>
+                <p>Remover tarefas já feitas</p>
+                <button id="remove" type="button" class="btn btn-danger btnRemover">Remover</button>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
